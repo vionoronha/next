@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "next"]
+	url = https://github.com/vionoronha/next
+	fetch = +refs/heads/*:refs/remotes/next/*
+[remote "origin"]
+	url = https://github.com/vionoronha/next
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "new"]
+	url = https://github.com/vionoronha/next.git
+	fetch = +refs/heads/*:refs/remotes/new/*
+[remote "route"]
+	url = https://github.com/vionoronha/next.git
+	fetch = +refs/heads/*:refs/remotes/route/*
